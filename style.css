@@ -1,0 +1,70 @@
+#avtar {
+  border-radius: 50%;
+}
+
+#nav-items {
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+@media (min-width: 600px) {
+  ul {
+    position: right;
+  }
+}
+@media (max-width: 599px) {
+  ul {
+    position: right;
+  }
+}
+#nav {
+  background-color: #05070a;
+}
+
+#wrapper {
+  background: transparent;
+  overflow: auto;
+  padding: 25px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.container-me {
+  font-size: 22px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: transparent;
+  padding: 14px;
+}
+.container-me h1 {
+  font-size: 46px;
+}
+
+.container-slider {
+  display: flex;
+  float: right;
+  width: 650px;
+  height: 500px;
+  border: 2px transparent;
+  position: right;
+  padding: 20px;
+}
+
+.item {
+  padding-left: 60px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#icon {
+  display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */
